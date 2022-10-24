@@ -9,7 +9,7 @@ function preload() {
 
 function setup() {
   // set up our canvas
-  renderer = createCanvas(600, 600, WEBGL);
+  renderer = createCanvas(500, 500, WEBGL);
   noStroke();
 }
 
