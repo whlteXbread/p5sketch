@@ -62,6 +62,10 @@ function draw() {
   // endShape();
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 // Hack to enable WEBGL2 and set a sane blend mode
 // https://github.com/processing/p5.js/issues/2536
 // https://github.com/diwi/p5.EasyCam/blob/master/examples/ReactionDiffusion_Webgl2/ReactionDiffusion_Webgl2.js#L563
