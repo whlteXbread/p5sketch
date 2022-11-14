@@ -30,6 +30,25 @@ so far, i haven't done anything more than hack around on already-written code, s
 ## open questions
 i really don't get why i can't just draw a vertex and have it show up somehow—feels like i shouldn't need to draw a square or a triangle in order for something to show up:
 
-```js:oscilosketch_vertex/sketch.js [44-62]
+```javascript
+// why do these need to be triangles? why can't i use a point?
+  beginShape(TRIANGLES);
+  for (let i = 0; i < numParticles; i++) {
+    // triangle 1
+    vertex(-0.01, -0.01);
+    vertex(-0.01, 0.01);
+    vertex(0.01, 0.01);
+    // triangle 2
+    vertex(-0.01, -0.01);
+    vertex(0.01, 0.01);
+    vertex(0.01, -0.01);
+  }
+  endShape();
 
+  // beginShape(POINTS);
+  // for (let i = 0; i < numParticles; i++) {
+  //   vertex(0.01, 0.01);
+  // }
+  // endShape();
+}
 ```
