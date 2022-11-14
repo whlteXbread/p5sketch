@@ -26,3 +26,10 @@ so far, i haven't done anything more than hack around on already-written code, s
 - [the book of shaders](https://thebookofshaders.com)
 - [openGL api docs](https://docs.gl)
 - [Justin Shrake's vertex shader repo](https://github.com/jshrake/p5js-vertex-shader)
+
+## open questions
+i really don't get why i can't just draw a vertex and have it show up somehow—feels like i shouldn't need to draw a square or a triangle in order for something to show up:
+
+```js:oscilosketch_vertex/sketch.js [44-62]
+
+```
