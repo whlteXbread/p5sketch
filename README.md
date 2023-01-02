@@ -7,6 +7,8 @@ learning p5.js and webGL
   - ostensibly the same animation, but the meat of the algorithm takes place in a vertex shader. i was hoping this would be much more efficient, but it doesn't look like that's the case. the code is way easier to read though.
 - [genuary 20230101](https://whltexbread.github.io/p5sketch/genuary2023/20230101/)
   - prompt is "perfect loop/infinite loop". i repeatedly draw a square using a vertex shader. that's it. that's the tweet.
+- [genuary 20230102](https://whltexbread.github.io/p5sketch/genuary2023/20230102/)
+  - prompt is "made in 10 minutes". i planned to just draw more squares by passing a bunch of center coords into the vertex shader. but i am slow in both JS and GLSL, and i ran into an issue where i couldn't figure out how to send a vector of float2s to the shader. took closer to an hour and a half. not a good sign for completing genuary in a good state of mind.
 
 ## acknowledgements
 so far, i haven't done anything more than hack around on already-written code, specifically [Adam Ferriss' genuary repo](https://github.com/aferriss/genuary) and [Justin Shrake's vertex shader repo](https://github.com/jshrake/p5js-vertex-shader).
