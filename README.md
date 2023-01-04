@@ -9,6 +9,8 @@ learning p5.js and webGL
   - prompt is "perfect loop/infinite loop". i repeatedly draw a square using a vertex shader. that's it. that's the tweet.
 - [genuary 20230102](https://whltexbread.github.io/p5sketch/genuary2023/20230102/)
   - prompt is "made in 10 minutes". i planned to just draw more squares by passing a bunch of center coords into the vertex shader. but i am slow in both JS and GLSL, and i ran into an issue where i couldn't figure out how to send a vector of float2s to the shader. took closer to an hour and a half. not a good sign for completing genuary in a good state of mind.
+- [genuary 20230103](https://whltexbread.github.io/p5sketch/genuary2023/20230103/)
+  - prompt is "glitch art". i wasn't really sure what to do, but eventually settled on trying to randomly manipulate the coordinates of one vertex. doing `rand` inside a shader is trickier than it looks.
 
 ## acknowledgements
 so far, i haven't done anything more than hack around on already-written code, specifically [Adam Ferriss' genuary repo](https://github.com/aferriss/genuary) and [Justin Shrake's vertex shader repo](https://github.com/jshrake/p5js-vertex-shader).
