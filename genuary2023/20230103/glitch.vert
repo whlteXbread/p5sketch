@@ -19,11 +19,12 @@ manipulate a single vertex "randomly" to create a glitch
 
 /* strategy
 
-panic at the taco bell
+figure out how to `rand` inside a shader
 
 */
 
 // https://stackoverflow.com/a/4275343/650427
+// turns out this is actually a hash function :(
 float rand(vec2 co){
     return fract(sin(dot(co, vec2(12.9898, 78.233))) * 43758.5453);
 }
@@ -63,5 +64,20 @@ void main() {
 }
 
 /* notes
+
+the PRNG i picked caused problems:
+* i needed a vec2 to put into the PRNG, so i used the vertex' x, y coords
+* this means that the distortions seen are periodic
+
+the way i chose to flip the coin was also dumb, it meant i only got glitches in one direction.
+
+i think i need/want three different random numbers:
+* one for a weighted coin
+* one for a position offset
+* one for a fair coin that determines direction
+
+that's probably overly convoluted.
+
+ALSO, though, i have branches in my shader, which i have heard is not ideal.
 
 notes */
