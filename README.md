@@ -13,6 +13,8 @@ learning p5.js and webGL
   - prompt is "glitch art". i wasn't really sure what to do, but eventually settled on trying to randomly manipulate the coordinates of one vertex. doing `rand` inside a shader is trickier than it looks.
 - [genuary 20230104](https://whltexbread.github.io/p5sketch/genuary2023/20230104/)
   - prompt is "intersection". i stole some of adam ferriss' code again. and then i made the ugliest thing i've ever made. rotating polygons of different colors whose colors add when they overlap. took me too long, way too long.
+- [genuary 20230105](https://whltexbread.github.io/p5sketch/genuary2023/20230105/)
+  - prompt is "debug mode". phoned it in. i need a break.
 
 ## acknowledgements
 so far, i haven't done anything more than hack around on already-written code, specifically [Adam Ferriss' genuary repo](https://github.com/aferriss/genuary) and [Justin Shrake's vertex shader repo](https://github.com/jshrake/p5js-vertex-shader).
