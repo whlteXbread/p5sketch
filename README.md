@@ -5,7 +5,7 @@ learning p5.js and webGL
 - [oscillosketch](https://whltexbread.github.io/p5sketch/oscillosketch/)
 - [oscillosketch_vertex](https://whltexbread.github.io/p5sketch/oscillosketch_vertex/)
   - ostensibly the same animation, but the meat of the algorithm takes place in a vertex shader. i was hoping this would be much more efficient, but it doesn't look like that's the case. the code is way easier to read though.
-### genuary 2023
+## genuary 2023
 - [genuary 20230101](https://whltexbread.github.io/p5sketch/genuary2023/20230101/)
   - prompt is "perfect loop/infinite loop". i repeatedly draw a square using a vertex shader. that's it. that's the tweet.
 - [genuary 20230102](https://whltexbread.github.io/p5sketch/genuary2023/20230102/)
@@ -16,10 +16,12 @@ learning p5.js and webGL
   - prompt is "intersection". i stole some of adam ferriss' code again. and then i made the ugliest thing i've ever made. rotating polygons of different colors whose colors add when they overlap. took me too long, way too long.
 - [genuary 20230105](https://whltexbread.github.io/p5sketch/genuary2023/20230105/)
   - prompt is "debug mode". phoned it in. i need a break.
-### genuary 2025
+## genuary 2025
 okay, let's give this a go again. strategy is to do bite-sized chunks (what's a shader lol) and try to be quick.
 - [genuary 20250101](https://whltexbread.github.io/p5sketch/genuary2025/20250101/)
   - prompt is "vertical or horizontal lines only." well, i did that.
+- [genuary 20250102](https://whltexbread.github.io/p5sketch/genuary2025/20250102/)
+  - "layers upon layers upon layers". aliasing is fun.
 
 ## acknowledgements
 so far, i haven't done anything more than hack around on already-written code, specifically [Adam Ferriss' genuary repo](https://github.com/aferriss/genuary) and [Justin Shrake's vertex shader repo](https://github.com/jshrake/p5js-vertex-shader).
