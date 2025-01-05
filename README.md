@@ -22,6 +22,8 @@ okay, let's give this a go again. strategy is to do bite-sized chunks (what's a 
   - prompt is "vertical or horizontal lines only." well, i did that.
 - [genuary 20250102](https://whltexbread.github.io/p5sketch/genuary2025/20250102/)
   - "layers upon layers upon layers". aliasing is fun.
+- [genuary 20250103](https://whltexbread.github.io/p5sketch/genuary2025/20250103/)
+  - okay, i drew 42 lines of code, exactly.
 
 ## acknowledgements
 so far, i haven't done anything more than hack around on already-written code, specifically [Adam Ferriss' genuary repo](https://github.com/aferriss/genuary) and [Justin Shrake's vertex shader repo](https://github.com/jshrake/p5js-vertex-shader).
