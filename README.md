@@ -25,7 +25,7 @@ okay, let's give this a go again. strategy is to do bite-sized chunks (what's a 
 - [genuary 20250103](https://whltexbread.github.io/p5sketch/genuary2025/20250103/)
   - okay, i drew 42 lines of code, exactly.
 - [genuary 20250104](https://whltexbread.github.io/p5sketch/genuary2025/20250104/)
-  - i call this one "i spent more time cramming this idea into existing code than it would have taken to start from scratch, also, i'm sorry it's a little unkind"
+  - i call this one "i call this one "i am milking this chunk of code for all its worth, also, i'm sorry it's a little unkind"
 
 ## acknowledgements
 so far, i haven't done anything more than hack around on already-written code, specifically [Adam Ferriss' genuary repo](https://github.com/aferriss/genuary) and [Justin Shrake's vertex shader repo](https://github.com/jshrake/p5js-vertex-shader).
