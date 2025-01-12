@@ -30,6 +30,8 @@ okay, let's give this a go again. strategy is to do bite-sized chunks (what's a 
   - i don't know. turns out i'm excited about aliasing until about 1 AM and then i turn into a primitive animal that can't reason about `mod` or whatever
 - [genuary 20250106](https://whltexbread.github.io/p5sketch/genuary2025/20250106/)
   - okay, how many people did i copy 🙈
+- [genuary 20250108](https://whltexbread.github.io/p5sketch/genuary2025/20250108/)
+  - looking down on a million embers (eventually)
 
 ## acknowledgements
 so far, i haven't done anything more than hack around on already-written code, specifically [Adam Ferriss' genuary repo](https://github.com/aferriss/genuary) and [Justin Shrake's vertex shader repo](https://github.com/jshrake/p5js-vertex-shader).
