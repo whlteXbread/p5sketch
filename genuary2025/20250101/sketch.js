@@ -9,7 +9,7 @@ let right_limit = 359;
 
 function setup() {
   createCanvas(canvasWidth, canvasHeight);
-  
+
   var offset = 0;
   for (ind = 0; ind < num_movers; ind++) {
     movers[ind] = new Mover(offset);
