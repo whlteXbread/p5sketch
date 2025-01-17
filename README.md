@@ -36,6 +36,8 @@ okay, let's give this a go again. strategy is to do bite-sized chunks (what's a 
   - i figure this is what some of the riders of the W line see when they're on the train
 - [genuary 20250110](https://whltexbread.github.io/p5sketch/genuary2025/20250110/)
   - okay darien brito, smart aleck, hope you're happy
+- [genuary 20250111](https://whltexbread.github.io/p5sketch/genuary2025/20250111/)
+  - not impossible, but i did have to break out graphtoy and bang my head through the brain fog
 
 ## acknowledgements
 so far, i haven't done anything more than hack around on already-written code, specifically [Adam Ferriss' genuary repo](https://github.com/aferriss/genuary) and [Justin Shrake's vertex shader repo](https://github.com/jshrake/p5js-vertex-shader).
