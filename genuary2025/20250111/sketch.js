@@ -10,12 +10,12 @@ let frequency_factor = 1 / 100;
 
 function preload() {
   // TOOD: why won't this load?
-  font = loadFont('inconsolata.otf')
+  // font = loadFont('inconsolata.otf')
 }
 
 function setup() {
-  textFont(font);
-  textSize(15);
+  // textFont(font);
+  // textSize(15);
   canvasWidth = 512;
   canvasHeight = 512;
   createCanvas(canvasWidth, canvasHeight, WEBGL);
