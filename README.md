@@ -38,6 +38,8 @@ okay, let's give this a go again. strategy is to do bite-sized chunks (what's a 
   - okay darien brito, smart aleck, hope you're happy
 - [genuary 20250111](https://whltexbread.github.io/p5sketch/genuary2025/20250111/)
   - not impossible, but i did have to break out graphtoy and bang my head through the brain fog
+- [genuary 20250112](https://whltexbread.github.io/p5sketch/genuary2025/20250112/)
+  - okay, how many kinds of aliasing can we have in one animation. three?
 
 ## acknowledgements
 so far, i haven't done anything more than hack around on already-written code, specifically [Adam Ferriss' genuary repo](https://github.com/aferriss/genuary) and [Justin Shrake's vertex shader repo](https://github.com/jshrake/p5js-vertex-shader).
