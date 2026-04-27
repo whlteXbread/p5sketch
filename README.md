@@ -41,6 +41,10 @@ okay, let's give this a go again. strategy is to do bite-sized chunks (what's a 
 - [genuary 20250112](https://whltexbread.github.io/p5sketch/genuary2025/20250112/)
   - okay, how many kinds of aliasing can we have in one animation. three?
 
+## coffee
+inspired by a coffee shop
+- [shadow play](https://whltexbread.github.io/p5sketch/coffee/shadow_play/)
+
 ## acknowledgements
 so far, i haven't done anything more than hack around on already-written code, specifically [Adam Ferriss' genuary repo](https://github.com/aferriss/genuary) and [Justin Shrake's vertex shader repo](https://github.com/jshrake/p5js-vertex-shader).
 
