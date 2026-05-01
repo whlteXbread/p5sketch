@@ -1,28 +1,12 @@
-function setup() {
-  createCanvas(400, 400);
-}
-
-function draw() {
-  background(220);
-} let canvasWidth;
+let canvasWidth;
 let canvasHeight;
-
-let font;
-
-let mover;
-
-let lines;
 
 let frequency_factor = 1 / 100;
 
-
 function setup() {
-  // textFont(font);
-  // textSize(15);
   canvasWidth = 512;
   canvasHeight = 512;
   createCanvas(canvasWidth, canvasHeight, WEBGL);
-  let total_movers = 2;
 
   // let's get janky
 
@@ -38,7 +22,7 @@ function setup() {
 }
 
 function draw() {
-  let num_vertices = 32; // 200 * lerp(0, 1, sin(frameCount / 100)) + 200;
+  let num_vertices = 32;
   outer_lines.calculate_frame_offsets();
   inner_lines.calculate_frame_offsets();
   middle_lines.calculate_frame_offsets();
@@ -48,7 +32,6 @@ function draw() {
   inner_planet.calculate_frame_offsets();
 
   background(131, 112, 52);
-  // ortho();
 
   outer_lines.draw();
   inner_lines.draw();
@@ -137,6 +120,6 @@ class Planet extends Mover {
 function keyPressed() {
   if (key === 's') {
     let options = { "units": "frames" }
-    saveGif('20250112_genuary', 2 * PI * 100, options);
+    saveGif('shadow_play', 2 * PI * 100, options);
   }
 }
